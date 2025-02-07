@@ -3,6 +3,8 @@ using Microsoft.UI;
 using Microsoft.UI.Windowing;
 using Windows.Graphics;
 #endif
+using Views;
+
 namespace SciCalcTARpe23
 {
     public partial class App : Application
@@ -25,7 +27,7 @@ namespace SciCalcTARpe23
                 });
 #endif
 
-            MainPage = new AppShell();
+            MainPage = new CalculatorPage();
         }
     }
 }
